@@ -1,0 +1,32 @@
+{
+    "name": "devj/proto",
+    "description": "implementation ",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Joe Soprano",
+            "email": "joe@soprano.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/DevJhub/UniBit"
+        },
+		{
+            "type": "vcs",
+            "url": "https://github.com/DevJhub/UniDataBuffer"
+        }
+    ],
+    "require": {
+		"php": ">=5.3.0",
+		"devj/UniBit": "dev-master",
+		"devj/UniDataBuffer": "dev-master"
+    },
+	    "autoload": {
+        "psr-0": {
+            "Proto": "src/"
+        }
+    }
+}
